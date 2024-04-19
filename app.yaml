@@ -1,0 +1,4 @@
+runtime: nodejs20
+# service: chapter-5-challange-5
+vpc_access_connector:
+    name: "projects/peaceful-leaf-420712/locations/asia-southeast2/connectors/connect-sql"

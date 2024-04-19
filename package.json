@@ -19,7 +19,8 @@
     "nodemon": "^3.1.0"
   },
   "scripts": {
-    "dev": "npx nodemon index"
+    "dev": "npx nodemon index",
+    "start": "npx sequelize db:migrate && node index.js"
   },
   "keywords": [],
   "author": "",
